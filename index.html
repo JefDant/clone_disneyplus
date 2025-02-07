@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
+<header class="header">
+    <div class="header__container">
+        <h1 class="header__logo">
+            <img src="./dist/images/disneyplus.svg" alt="">
+        </h1>
+        <ul class="header__links">
+            <li class="header__links__item">
+                <a href="#" class="button button--secudary">Assine agora</a>
+            </li>
+            <li class="header__links__item">
+                <a href="#" class="button button--dark">Entrar</a>
+            </li>
+        </ul>
+    </div>
+</header>
 <section class="hero">
     <div class="hero__content">
         <h1 class="hero__content__branding">
@@ -154,7 +169,10 @@
     </div>
 </section>
 <section class="image-text-section image-text-section--image-full-width">
-    <img src="./dist/images/fundo_rei_leao.png" alt="">
+    <picture>
+        <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png" />
+        <img src="./dist/images/fundo_rei_leao.png" alt="">
+    </picture>
     <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
         <h2 class="title">Baixe filmes e series</h2>
         <p class="text--big">
@@ -163,6 +181,141 @@
 
     </div>
 </section>
+<section class="available-devices">
+    <h2 class="title">Disponivel nos seus dispositivos favoritos</h2>
+    <ul class="available-devices__list">
+        <li class="available-devices__list__item">
+            <img src="./dist/images/dispositivos/computador.png" alt="">
+            <h4 class="title--small">Computador</h4>
+            <ul class="text">
+                <li>Chrome OS</li>
+                <li>MacOS</li>
+                <li>PC Windows</li>
+            </ul>
+        </li>
+        <li class="available-devices__list__item">
+            <img src="./dist/images/dispositivos/tv.png" alt="">
+            <h4 class="title--small">TV</h4>
+            <ul class="text">
+                <li>Amazon Fire TV</li>
+                <li>Android TV</li>
+                <li>Apple TV</li>
+                <li>Chromecast</li>
+                <li>TVs LG</li>
+                <li>Foku</li>
+                <li>Sansung</li>
+            </ul>
+        </li>
+        <li class="available-devices__list__item">
+            <img src="./dist/images/dispositivos/videogames.png" alt="">
+            <h4 class="title--small">Videogames</h4>
+            <ul class="text">
+                <li>PS4</li>
+                <li>PS5</li>
+                <li>Xbox One</li>
+                <li>Xbox Series X</li>
+                <li>Xbox Series 5</li>
+            </ul>
+        </li>
+        <li class="available-devices__list__item">
+            <img src="./dist/images/dispositivos/celular.png" alt="">
+            <h4 class="title--small">Celulares e tablets</h4>
+            <ul class="text">
+                <li>Tablets Amazon Fire</li>
+                <li>Celulares e Tablets Android</li>
+                <li>iPhone e iPad</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+<section class="faq">
+    <h2 class="title">Perguntas frequentes</h2>
+    <ul class="faq__questions">
+        <li class="faq__questions__item">
+            <div class="faq__questions__item__question" data-faq-question>
+                Pergunta?
+            </div>
+            <div class="faq__questions__item__answer text--big">
+                A resposta da pergunta
+            </div>
+        </li>
+        <li class="faq__questions__item">
+            <div class="faq__questions__item__question" data-faq-question>
+                Pergunta?
+            </div>
+            <div class="faq__questions__item__answer text--big">
+                A resposta da pergunta
+            </div>
+        </li>
+        <li class="faq__questions__item">
+            <div class="faq__questions__item__question" data-faq-question>
+                Pergunta?
+            </div>
+            <div class="faq__questions__item__answer text--big">
+                A resposta da pergunta
+            </div>
+        </li>
+        <li class="faq__questions__item">
+            <div class="faq__questions__item__question" data-faq-question>
+                Pergunta?
+            </div>
+            <div class="faq__questions__item__answer text--big">
+                A resposta da pergunta
+            </div>
+        </li>
+                <li class="faq__questions__item">
+            <div class="faq__questions__item__question" data-faq-question>
+                Pergunta?
+            </div>
+            <div class="faq__questions__item__answer text--big">
+                A resposta da pergunta
+            </div>
+        </li>
+    </ul>
+</section>
+<footer class="footer">
+    <div class="footer__container">
+        <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="">
+        <ul class="footer__links">
+            <li class="footer__links__item">
+                <div class="language-selector">
+                    <img src="./dist/images/icones/globe.svg" alt="">
+                    <select>
+                        <option>English</option>
+                        <option selected>Português</option>
+                    </select>
+                </div>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Termos e Condições de Uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Termos e Condições de Uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Termos e Condições de Uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Termos e Condições de Uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Termos e Condições de Uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Termos e Condições de Uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a href="#" class="text--small">Termos e Condições de Uso</a>
+            </li>
+        </ul>
+        <p class="text--small">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis voluptatum quasi maiores esse aliquid obcaecati mollitia cupiditate ullam incidunt voluptatibus laborum, quidem culpa ducimus, distinctio, expedita sed aspernatur architecto. Minus.
+        </p>
+        <p class="text--small">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis voluptatum quasi maiores esse aliquid obcaecati mollitia cupiditate ullam incidunt voluptatibus laborum, quidem culpa ducimus, distinctio, expedita sed aspernatur architecto. Minus.
+        </p>
+    </div>
+</footer>
 
 <script src="./src/main.js"></script>
 </body>
